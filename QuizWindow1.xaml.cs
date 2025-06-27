@@ -20,7 +20,6 @@ namespace Poe_Part3
             // To log activities back to the main app or caller
             private readonly Action<string> logActivity;
 
-            // Define Question as nested class
             private class Question
             {
                 public string Text { get; set; }
@@ -30,7 +29,7 @@ namespace Poe_Part3
 
             private readonly List<Question> questions = new()
         {
-            // Original questions
+           // added questions 
             new Question
             {
                 Text = "What should you do if you receive a suspicious email?",
@@ -50,7 +49,7 @@ namespace Poe_Part3
                 CorrectIndex = 1
             },
 
-            // NEW Part 2 questions appended
+           
             new Question
             {
                 Text = "What is the safest way to manage your passwords?",
