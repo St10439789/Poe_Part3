@@ -44,7 +44,7 @@ namespace Poe_Part3
             show_chats.Items.Add("");
         }
 
-        // Improved NLP conversation logic
+        //  NLP conversation logic
         private string ProcessInput(string input)
         {
             input = input.ToLower();
